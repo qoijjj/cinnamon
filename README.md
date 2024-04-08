@@ -2,8 +2,6 @@
 
 **This image is considered alpha**
 
-[![release-please](https://github.com/ublue-os/cinnamon/actions/workflows/release-please.yml/badge.svg)](https://github.com/ublue-os/cinnamon/actions/workflows/release-please.yml)
-
 ![image](https://user-images.githubusercontent.com/1264109/236370188-cbbfa831-65b7-48ca-9c8c-d67c777b0f62.png)
 
 
