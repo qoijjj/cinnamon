@@ -6,24 +6,14 @@
 
 ![image](https://user-images.githubusercontent.com/1264109/236370188-cbbfa831-65b7-48ca-9c8c-d67c777b0f62.png)
 
-To try this image, you can either download the iso or rebase over an existing Fedora Silverblue install.
 
-<br>
+## Rebase
 
-## Download and install [the ISO from here](https://ublue.it/installation/)
-Select "Install ublue-os/cinnamon" from the menu 
-- Choose "Install cinnamon:38" if you have an AMD or Intel GPU
-- Choose "Install cinnamon-nvidia:38" if you have an Nvidia GPU
-
-<br>
-
-## Rebase over Fedora Silverblue
-
-    rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/cinnamon-main:38
+    rpm-ostree rebase ostree-image-signed:docker://ghcr.io/legacy-images/cinnamon-main:latest
 
 or if you have an NVIDIA GPU:
 
-    rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/cinnamon-nvidia:38
+    rpm-ostree rebase ostree-image-signed:docker://ghcr.io/legacy-images/cinnamon-nvidia:latest
 
 <br>
 
