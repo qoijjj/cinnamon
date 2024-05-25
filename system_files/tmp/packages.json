@@ -48,6 +48,7 @@
                 "paper-icon-theme",
                 "pipewire-alsa",
                 "pipewire-pulseaudio",
+		"power-profiles-daemon",
                 "powerline",
                 "qgnomeplatform-qt5",
                 "redshift-gtk",
