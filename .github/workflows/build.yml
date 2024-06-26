@@ -1,3 +1,4 @@
+
 name: Build and Push Image
 on:
   pull_request:
@@ -31,6 +32,11 @@ jobs:
             is_latest_version: false
             is_stable_version: true
             is_gts_version: true
+        exclude:
+          - fedora_version: 39
+            image_flavor: asus
+          - fedora_version: 39
+            image_flavor: asus-nvidia
     steps:
       - name: Maximize build space
         uses: ublue-os/remove-unwanted-software@v6
