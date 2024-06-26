@@ -33,9 +33,9 @@ jobs:
             is_stable_version: true
             is_gts_version: true
         exclude:
-          - fedora_version: 39
+          - major_version: 39
             image_flavor: asus
-          - fedora_version: 39
+          - major_version: 39
             image_flavor: asus-nvidia
     steps:
       - name: Maximize build space
